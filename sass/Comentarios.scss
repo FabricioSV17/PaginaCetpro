@@ -1,0 +1,47 @@
+.Comentarios{
+    width: 100%;
+    &--titulo{
+        width: 100%;
+        font-size: 4rem;
+        font-family: $Poppins;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    &__contenedor{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0  auto;
+        &__Carta{
+            display: flex;
+            align-items: center;
+            margin: 2rem 0;
+            &--comentario{
+                width: 60%;
+                font-family: $Poppins;
+                &--nombre{
+                    font-size: 3rem;
+                    // text-align: center;
+                    letter-spacing: .3rem;
+                }
+                &--descripcion{
+                    font-size: 1.8rem;
+                    font-weight: 300;
+                    line-height: 1.7;
+                }
+            }
+            &--foto{
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 40%;
+                    border-radius: 50%;
+                }
+            }
+
+        }
+    }
+}
