@@ -1,0 +1,46 @@
+.ContenedorCetpro{
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__info{
+        width: 50%;
+        font-family: $Poppins;
+        padding: 2rem;
+        &--titulo{
+            font-size: 3rem;
+            color: $Azul;
+            font-weight: 700;
+            padding-left: 1rem;
+            border-left: 1rem solid $Naranja;
+            margin-bottom: 2rem;
+        }
+        &--parrafo{
+            font-size: 1.8rem;
+            line-height: 1.7;
+            font-weight: 300;
+        }
+        &--btn{
+            margin-top: .5rem;
+            padding: 1rem 3rem;
+            background: $CelesteOscuro;
+            color: $Blanco;
+            font-weight: 700;
+            border-radius: 1rem;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                letter-spacing: .2rem;
+            }
+        }
+    }
+    &__Video{
+        width: 50%;
+        iframe{
+            width: 100%;
+            border-radius: 2rem;
+        }
+    }
+}

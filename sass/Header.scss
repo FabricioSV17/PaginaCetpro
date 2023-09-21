@@ -2,6 +2,13 @@
     width: 100%;
     position: fixed;
     z-index: 111;
+    transition: all .5s ease-in-out;
+    &.active{
+        background: #111;
+    }
+    &.active &__contenedor{
+        padding: .5rem ;
+    }
     &__contenedor{
         width: 100%;
         display: flex;
@@ -11,15 +18,24 @@
         &__logo{
             display: flex;
             align-items: center;
-            img{
+            &--imagen{
                 width: 140px;
+                transition: all 0.5s ease-in-out;
+            }
+            .Encabezado.active &--imagen{
+                width: 100px;
             }
             &--titulo{
                 font-size: 4rem;
                 font-family: $Poppins;
                 margin-left: 1rem;
                 color: $Blanco;
+                transition: all 0.5s ease-in-out;
             }
+            .Encabezado.active &--titulo{
+                font-size: 3rem;
+            }
+
         }
         &__menu{
             &--enlace{
@@ -28,6 +44,10 @@
                 font-family: $Poppins;
                 font-weight: 700;
                 color: $Blanco;
+                transition: all 0.5s ease-in-out;
+            }
+            .Encabezado.active &--enlace{
+                font-size: 1.5rem;
             }
         }
     }
