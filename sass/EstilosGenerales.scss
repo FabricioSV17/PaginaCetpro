@@ -1,0 +1,43 @@
+// Importe de Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Staatliches&display=swap');
+// Variables
+// Colores
+$Blanco: #FFFF;
+$Negro: #0000;
+$VerdeLimon: #C1FF72;
+$Verde: #7ED957;
+$NarajaClaro: #FFDE59;
+$Naranja: #FFBD59;
+$CelesteOscuro:#0CC0DF;
+$Celeste: #5CE1E6;
+$Azul: #004AAD;
+$Crema: #EBCC90;
+// Fuentes
+$Poppins: 'Poppins', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+// Estilos Generales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #f2f2f2f2;
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+// Colores clases
+.Color1{color: $Azul;}
+.Color2{color: $Verde;}
+.Color3{color: $Naranja;}
+.Color4{color: $CelesteOscuro;}
+

@@ -1,3 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgba(242, 242, 242, 0.9490196078);
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.Color1 {
+  color: #004AAD;
+}
+
+.Color2 {
+  color: #7ED957;
+}
+
+.Color3 {
+  color: #FFBD59;
+}
+
+.Color4 {
+  color: #0CC0DF;
+}
+
+.Encabezado {
+  width: 100%;
+  position: fixed;
+  z-index: 111;
+}
+.Encabezado__contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.Encabezado__contenedor__logo {
+  display: flex;
+  align-items: center;
+}
+.Encabezado__contenedor__logo img {
+  width: 140px;
+}
+.Encabezado__contenedor__logo--titulo {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+  color: white;
+}
+.Encabezado__contenedor__menu--enlace {
+  margin: 0 0.8rem;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.Hero {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Hero__contenedor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.Hero__contenedor--titulo {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+.Hero__contenedor--titulo2 {
+  font-size: 5.5rem;
+}
+.Hero__contenedor--parrafo {
+  font-size: 3rem;
+  width: 50%;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid #C1FF72;
+}
+
+.ContenedorCuadro {
+  position: relative;
+  width: 100%;
+}
+.ContenedorCuadro .CuadroDatos {
+  width: 55%;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 4rem;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 0.6rem solid #FFBD59;
+}
+.ContenedorCuadro .CuadroDatos__cuadro {
+  font-family: "Roboto", sans-serif;
+}
+.ContenedorCuadro .CuadroDatos__cuadro--numero {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.ContenedorCuadro .CuadroDatos__cuadro--parrafo {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=Estilos.css.map */

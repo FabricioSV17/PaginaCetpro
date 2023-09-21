@@ -1,0 +1,34 @@
+.Encabezado{
+    width: 100%;
+    position: fixed;
+    z-index: 111;
+    &__contenedor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        &__logo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 140px;
+            }
+            &--titulo{
+                font-size: 4rem;
+                font-family: $Poppins;
+                margin-left: 1rem;
+                color: $Blanco;
+            }
+        }
+        &__menu{
+            &--enlace{
+                margin: 0 .8rem;
+                font-size: 1.8rem;
+                font-family: $Poppins;
+                font-weight: 700;
+                color: $Blanco;
+            }
+        }
+    }
+}

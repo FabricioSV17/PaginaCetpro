@@ -1,0 +1,69 @@
+.Hero{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background: linear-gradient(
+        0deg,
+        rgba($Negro,0.5),
+        rgba($Negro,0.5)
+
+    )
+    ,url(../img/Fondo.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__contenedor{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $Blanco;
+        font-family: $Poppins;
+        &--titulo{
+            font-size: 6rem;
+            text-transform: uppercase;
+        }
+        &--titulo2{
+            font-size: 5.5rem;
+        }
+        &--parrafo{
+            font-size: 3rem;
+            width: 50%;
+            padding-bottom: 1rem;
+            border-bottom: 5px solid $VerdeLimon;
+        }
+    }
+}
+// Estilos del Cuadro
+.ContenedorCuadro{
+    position: relative;
+    width: 100%;
+    .CuadroDatos{
+        width: 55%;
+        background: $Blanco;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        text-align: center;
+        padding: 4rem;
+        position: absolute;
+        top: -3rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-bottom: .6rem solid $Naranja;
+        &__cuadro{
+            font-family: $Roboto;
+            &--numero{
+                font-size: 4rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+            &--parrafo{
+                font-size: 1.8rem;
+                font-weight: 300;
+                font-style: italic;
+
+            }
+        }
+    }
+}
