@@ -39,6 +39,14 @@ a {
   color: #0CC0DF;
 }
 
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
 .Encabezado {
   width: 100%;
   position: fixed;
@@ -250,6 +258,52 @@ a {
   font-style: italic;
   margin-top: 1.3rem;
   font-weight: 300;
+}
+
+.Comentarios {
+  width: 100%;
+}
+.Comentarios--titulo {
+  width: 100%;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 2rem 0;
+}
+.Comentarios__contenedor {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.Comentarios__contenedor__Carta {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.Comentarios__contenedor__Carta--comentario {
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+}
+.Comentarios__contenedor__Carta--comentario--nombre {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+.Comentarios__contenedor__Carta--comentario--descripcion {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+.Comentarios__contenedor__Carta--foto {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Comentarios__contenedor__Carta--foto img {
+  width: 40%;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=Estilos.css.map */
