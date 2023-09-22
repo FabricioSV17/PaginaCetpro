@@ -260,50 +260,58 @@ a {
   font-weight: 300;
 }
 
-.Comentarios {
+.Listos {
   width: 100%;
-}
-.Comentarios--titulo {
-  width: 100%;
-  font-size: 4rem;
-  font-family: "Poppins", sans-serif;
   text-align: center;
-  margin: 2rem 0;
+  font-family: "Roboto", sans-serif;
+  padding: 6rem 1rem;
 }
-.Comentarios__contenedor {
-  width: 90%;
+.Listos--titulo {
+  font-size: 10rem;
+}
+.Listos--btn {
+  font-size: 2.8rem;
+  margin-top: 2rem;
+  padding: 1.5rem 4rem;
+  background: #0CC0DF;
+  color: white;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+.footer {
+  width: 100%;
+  padding: 3rem 1rem;
+  background: #111;
+}
+.footer__contenedor {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  justify-content: space-between;
 }
-.Comentarios__contenedor__Carta {
-  display: flex;
-  align-items: center;
-  margin: 2rem 0;
+.footer__contenedor__logo {
+  text-align: center;
 }
-.Comentarios__contenedor__Carta--comentario {
-  width: 60%;
+.footer__contenedor__logo--imagen {
+  width: 10rem;
+}
+.footer__contenedor__logo--titulo {
+  color: white;
   font-family: "Poppins", sans-serif;
 }
-.Comentarios__contenedor__Carta--comentario--nombre {
-  font-size: 3rem;
-  letter-spacing: 0.3rem;
+.footer__contenedor__derechos {
+  color: white;
+  text-align: center;
 }
-.Comentarios__contenedor__Carta--comentario--descripcion {
+.footer__contenedor__derechos--copyright {
   font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 1.7;
+  font-weight: 700;
+  font-style: italic;
 }
-.Comentarios__contenedor__Carta--foto {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Comentarios__contenedor__Carta--foto img {
-  width: 40%;
-  border-radius: 50%;
+.footer__contenedor__derechos--iconos--icon {
+  color: white;
+  font-size: 3rem;
+  margin: 0 1rem;
 }
 
 /*# sourceMappingURL=Estilos.css.map */

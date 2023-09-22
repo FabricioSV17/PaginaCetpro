@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    padding: 3rem 1rem;
+    background: #111;
+    &__contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__logo{
+            text-align: center;
+            &--imagen{
+                width: 10rem;
+            }
+            &--titulo{
+                color: $Blanco;
+                font-family: $Poppins;
+            }
+        }
+        &__derechos{
+            color: $Blanco;
+            text-align: center;
+            &--copyright{
+                font-size: 1.8rem;
+                font-weight: 700;
+                font-style: italic;
+            }
+            &--iconos{
+                &--icon{
+                    color: $Blanco;
+                    font-size: 3rem;
+                    margin: 0 1rem;
+                }
+            }
+        }
+    }
+}

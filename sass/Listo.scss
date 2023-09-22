@@ -1,0 +1,18 @@
+.Listos{
+    width: 100%;
+    text-align: center;
+    font-family: $Roboto;
+    padding: 6rem 1rem;
+    &--titulo{
+        font-size: 10rem;
+    }
+    &--btn{
+        font-size: 2.8rem;
+        margin-top: 2rem;
+        padding: 1.5rem 4rem;
+        background: $CelesteOscuro;
+        color: $Blanco;
+        border-radius: 1rem;
+        font-weight: 700;
+    }
+}
